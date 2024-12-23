@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* шрифт */
+a {
+    all: unset;
+}
+
+body {
+    font-family: Ubuntu;
+    width: 900px;
+    margin: auto;
+    background-color: #2d2e2e;
+}
+
+.container {
+    background-color: #2b2c2c;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 15px;
+
+}
+
+
+.name,
+.family {
+    color: #97a5a0;
+    font-size: 50px;
+}
+
+.family {
+    color: #e0a80d;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 25px;
+    color: #97a5a0;
+}
+
+.link {
+    color: #97a5a0;
+    font-size: 35px;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: #e0a80d;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+}
+
+.line {
+    border: 2px solid #97a5a0;
+    width: 90%;
+}
+/* header */
+
+/* info */
+
+
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #97a5a0;
+    font-size: 25px;
+}
+
+/* info */
+
+/* iam */
+
+.iam {
+    display: flex;
+    justify-content: space-around;
+    color: #97a5a0;
+    font-size: 25px;
+}
+
+.info_about {
+    width: 100px;
+    text-align: center;
+    margin: auto 0px;
+}
+
+.inf {
+    width: 500px;
+    text-align: center;
+}
+
+.text {
+    color: #e0a80d;
+    font-weight: bold;
+}
+
+/* iam */
+
+/* section */
+
+.section {
+    width: 100%;
+    color: #97a5a0;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills_title {
+    text-align: center;
+
+}
+
+.skills_bar {
+    margin: auto 0;
+    color: #e0a80d;
+    font-weight: bold
+}
+
+/* section */
+
+/* form */
+form {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.form p {
+    text-align: center;
+}
+
+.form_group label {
+    display: block;
+    font-size: 25px;
+    color: #97a5a0;
+}
+
+.form_row .form_group {
+    display: inline-block;
+
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+.form p {
+    color: #e0a80d;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form_group input,
+.form_group textarea {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0 10px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    color: #1e1f1f;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #97a5a0;
+    box-shadow: 0 5px 0 #141414;
+}
+
+button:hover {
+    background-color: #6c6e6e;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+/* form */
+
+/* footer */
+.footer {
+    width: 900px;
+    background-color: #1e1f1f;
+    text-align: center;
+    color: #97a5a0;
+    font-size: 25px;
+}
+
+.footer p {
+    padding: 20px;
+}
+
+/* footer */
